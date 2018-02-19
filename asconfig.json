@@ -1,0 +1,18 @@
+{
+	"config": "flex",
+	"compilerOptions": {
+        "output": "bin/TinyDefenders.swf",
+		"static-link-runtime-shared-libraries": true,
+        "default-size": {
+            "width": 640,
+            "height": 480
+		},
+		"source-path": [
+			"flixel"
+		]
+	},
+	"files":
+	[
+		"src/Main.as"
+	]
+}
